@@ -23,5 +23,5 @@ GNEWS_COUNTRY = "in"
 # How many past digests to keep visible in the history list
 MAX_HISTORY = 28  # ~7 days at 4 runs/day
 
-OUTPUT_DIR = "docs"
-DATA_FILE = "docs/data/digests.json"
+OUTPUT_DIR = os.path.join(_REPO_ROOT, "docs")
+DATA_FILE = os.path.join(_REPO_ROOT, "docs", "data", "digests.json")

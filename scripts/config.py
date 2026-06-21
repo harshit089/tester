@@ -1,5 +1,5 @@
 import os
-
+_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GNEWS_API_KEY = os.environ.get("GNEWS_API_KEY", "")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 
